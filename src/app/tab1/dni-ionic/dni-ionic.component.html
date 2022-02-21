@@ -1,0 +1,5 @@
+<ion-item>
+    <ion-label>D.N.I.</ion-label>
+    <ion-input [(ngModel)]="dni" type="text" id="dni" name="dni" (focusin)="clearUI()"></ion-input>
+    <ion-button color="primary" (click)="comprobarDni()">Calcular</ion-button>
+</ion-item>
