@@ -1,7 +1,11 @@
 {
-  "name": "AppIonic",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
+    "name": "AppIonic",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "angular",
+    "proxies": [{
+        "path": "/",
+        "proxyUrl": "http://10.1.2.10:3000/alumno"
+    }]
 }

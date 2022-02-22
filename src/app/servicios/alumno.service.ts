@@ -10,6 +10,7 @@ export class AlumnoService {
 
   private readonly REMOTE_SERVER = 'http://10.1.2.10:3000';
   private readonly LOCAL_SERVER = 'http://localhost:3000';
+
   private CURRENT_SERVER = '';
 
   private headers: HttpHeaders = new HttpHeaders({"Content-type": "application/json"});

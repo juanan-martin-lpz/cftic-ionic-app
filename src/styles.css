@@ -302,3 +302,11 @@ td a {
     text-align: center;
     margin-top: 3rem;
 }
+
+ion-card {
+    max-width: 450px;
+}
+
+ion-card img {
+    width: 100%;
+}
