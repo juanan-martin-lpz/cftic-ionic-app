@@ -1,0 +1,304 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+.contenedor {
+    width: 500px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.form {
+    margin: 0 auto;
+    width: 30rem;
+    padding-bottom: 2rem;
+}
+
+hr {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.field {
+    display: grid;
+    grid-template-columns: 5rem 10rem;
+    padding-bottom: 0.5rem;
+}
+
+.field label {
+    grid-column: 1;
+}
+
+.field input {
+    grid-column: 2;
+}
+
+.resultados {
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.resultados .textos {
+    margin: 0 auto;
+    width: 30rem;
+}
+
+img {
+    width: 100%;
+}
+
+#imagen {
+    margin: 0 auto;
+    position: relative;
+    width: 50rem;
+}
+
+.punto {
+    position: absolute;
+    z-index: 10;
+    background-color: blue;
+}
+
+.primero {
+    left: 10%;
+    top: 35%;
+}
+
+.segundo {
+    left: 27%;
+    top: 35%;
+}
+
+.tercero {
+    left: 44%;
+    top: 35%;
+}
+
+.cuarto {
+    left: 63%;
+    top: 35%;
+}
+
+.quinto {
+    left: 83%;
+    top: 35%;
+}
+
+.circulo {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+.titulo-juego {
+    text-align: center;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+.botones,
+.contenedor {
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.botones-p {
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.boton {
+    width: 300px;
+    transition: transform 1.5s;
+    cursor: pointer;
+}
+
+.boton-p {
+    width: 200px;
+}
+
+.boton:hover {
+    transform: scale(1.2);
+}
+
+.boton img {
+    width: 100%;
+}
+
+.boton-p img {
+    width: 100%;
+}
+
+.marcada {
+    border: 2px solid blueviolet;
+}
+
+.button-play {
+    margin: 0 auto;
+    width: 12rem;
+    height: 6rem;
+    font-size: 24px;
+    background-color: green;
+    color: whitesmoke;
+    border: 2px solid green;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-reset {
+    margin: 0 auto;
+    width: 14rem;
+    height: 6rem;
+    font-size: 24px;
+    background-color: red;
+    color: whitesmoke;
+    border: 2px solid red;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-play:disabled {
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.contenedor {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.resultado {
+    font-size: 38px;
+    color: whitesmoke;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: repeat(4, 2rem);
+}
+
+.resultado .marcador {
+    margin-top: 3rem;
+}
+
+.contenedor-ancho {
+    width: 1000px;
+}
+
+.contenedor-ancho h3 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contenedor-form {
+    width: 800px;
+    padding: 5rem 0 0 5rem;
+}
+
+table {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+td:nth-child(1) {
+    width: 5rem;
+    text-align: center;
+}
+
+td:nth-child(2) {
+    width: 8rem;
+    text-align: center;
+}
+
+td:nth-child(3) {
+    width: 8rem;
+    text-align: center;
+}
+
+td:nth-child(4) {
+    width: 5rem;
+    text-align: center;
+}
+
+td:nth-child(5) {
+    width: 14rem;
+    text-align: center;
+}
+
+.table-header td {
+    border: 2px solid black;
+}
+
+thead tr {
+    background-color: silver;
+}
+
+.table-body td {
+    border: 2px solid black;
+}
+
+.table-body tr:nth-child(odd) {
+    background-color: lightsteelblue;
+}
+
+.table-body tr:nth-child(even) {
+    background-color: lemonchiffon;
+}
+
+td a {
+    margin: 2px 5px 2px 5px;
+}
+
+.botonera {
+    padding-top: 1rem;
+}
+
+.botonera button {
+    margin-right: 1rem;
+}
+
+.botonera input {
+    margin-right: 1rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 350px;
+    flex-basis: 200px;
+    min-width: 200px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.card img {
+    width: 100%;
+}
+
+.userdata div {
+    border: 1px solid grey;
+    font-size: 24px;
+}
+
+.round {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.center h2 {
+    text-align: center;
+    margin-top: 3rem;
+}
