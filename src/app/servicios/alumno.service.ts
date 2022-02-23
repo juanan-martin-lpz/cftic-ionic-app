@@ -13,7 +13,7 @@ export class AlumnoService {
 
   private CURRENT_SERVER = '';
 
-  private headers: HttpHeaders = new HttpHeaders({"Content-type": "application/json"});
+  private headers: HttpHeaders = new HttpHeaders({"Content-type": "text/plain"});
 
 
   constructor(private http: HttpClient) {
